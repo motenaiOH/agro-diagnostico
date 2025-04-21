@@ -1,0 +1,11 @@
+{
+    "velocidade_kmh": 7.5,
+    "peso_velocidade": 5,
+    "rotacao_extrator": 1200,
+    "peso_rotacao": 4,
+    "umidade": 65,
+    "peso_umidade": 3,
+    "temperatura": 30,
+    "peso_temperatura": 2,
+    "sugestao": "Reduza a velocidade e rotação. Reavalie colheita com umidade < 65%."
+}

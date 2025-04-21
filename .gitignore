@@ -1,0 +1,33 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos do Streamlit
+.streamlit/
+__pycache__/
+
+# Relatórios e dados gerados
+relatorios/*.json
+!relatorios/.gitkeep
+
+# Arquivos temporários / sistema
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de build ou distribuição
+*.egg-info/
+dist/
+build/
+
+# Outros
+*.bak
+*.tmp
