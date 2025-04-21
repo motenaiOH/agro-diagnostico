@@ -33,7 +33,10 @@ agro-diagnostico/
 │   ├── setup.sh             # Instala dependências e executa aplicação (Linux/macOS)
 │   └── setup.bat            # Instala e executa aplicação (Windows)
 │
-├── tests/                   # (Opcional) Testes unitários
+├── tests/                   # Testes unitários com pytest
+│   ├── test_diagnostico.py
+│   ├── test_relatorio.py
+│   └── __init__.py
 │
 ├── requirements.txt         # Dependências Python
 ├── .gitignore               # Regras para versionamento
@@ -59,6 +62,18 @@ python main.py
 ```
 
 A aplicação abrirá um menu no terminal e o dashboard será carregado automaticamente no navegador.
+
+---
+
+## ✅ Como executar os testes
+
+A partir da raiz do projeto, rode:
+
+```bash
+pytest tests/
+```
+
+Certifique-se de que as dependências estão instaladas (especialmente `pytest`). Os testes validam a lógica de diagnóstico e geração de relatórios.
 
 ---
 
